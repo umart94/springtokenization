@@ -1,0 +1,15 @@
+jwt:
+ secret: javainuse
+ 
+spring:
+ datasource:
+  url: jdbc:mysql://localhost/jwttoken?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&serverTimezone=Asia/Karachi
+  username: root
+  password: root
+  platform: mysql
+ 
+ jpa:
+    hibernate:
+      ddl-auto: update
+ 
+ 
